@@ -1,25 +1,7 @@
 # Crime-Investigation
-import json
-import requests
-from geopy.geocoders import Nominatim
-from geopy.distance import vincenty
-from geopy.distance import great_circle
-from geopy.exc import GeocoderTimedOut
-from datetime import datetime
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-from fbprophet import Prophet
-import seaborn as sns
-import pystan
-%matplotlib inline
-plt.rcParams['figure.figsize']=(20,10)
-plt.style.use('ggplot')
-filename = "https://moto.data.socrata.com/resource/4h35-4mtu.json?$$app_token=SGf4MCedoqeOfxb7GPiMDUdf7"
-response = requests.get(filename)
-data = response.json()
-#Data is represented in the form of Data frame 
-df = pd.DataFrame(data)
+Crime investigation around Starbucks Stores in Seattle
+
+This project's goal is to collect crime history data around certain starbucks stores in seattle area and categorize the level of crimes by their crime type and forecast the future crime rates and category in which each store falls and therfore take security measures at each store accordingly 
 
 #checking for null values
 print(df.isnull().values.all())
