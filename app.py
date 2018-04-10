@@ -19,9 +19,9 @@ def about():
 @app.route('/plot',methods = ['GET','POST'])
 def plot():
     data = quandl.get_table('WIKI/PRICES',
-                       ticker = request.form['ticker'])
+                       ticker = request.form['address'])
     p = figure(plot_width=400, plot_height=400,x_axis_type = "datetime")
-    p.line(data.date,data.open,line_width = 2,legend = request.form['ticker'],color = 'green')
+    p.line(data.date,data.open,line_width = 2,legend = request.form['address'],color = 'green')
     
     script, div = components(p)
     return render_template('line.html',div=div,script=script)
