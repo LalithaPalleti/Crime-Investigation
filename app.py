@@ -82,54 +82,6 @@ def getcrimesby_tier(address,crime_type):
     tier_df = pd.DataFrame(tier,columns = ['Date','Incidents'])
     return tier_df
 
-def forecast_model(df):
-    #Preparing data for Prophet 
-    df1 = df.reset_index()
-    #for prophet to work, columns should be in teh format ds and y
-    df1 = df1.rename(columns={'Date':'ds', 'Incidents':'y'})
-    #drawing a plot with ds and y
-    df1.set_index('ds').y.plot()
-    #converting normal values to log values using numpy's log function to remove anamolies
-    df1['y'] = np.log(df1['y'])
-    df1.set_index('ds').y.plot()
-    #Running Prophet
-    model = Prophet(yearly_seasonality =True,weekly_seasonality= True,daily_seasonality = True)
-    model.fit(df1);
-    #i want to forecast 6 months of data, so am using periods = 6 and "m" means month
-    future = model.make_future_dataframe(periods= 6, freq = "m")
-    #to forecast this future data we have to run it through prophet model   
-    forecast = model.predict(future)
-    # we are interested only in yhat, yhat_lower, yhat_upper values
-    forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']].tail()
-    #this function plot gives actual data in black dots and forecast data in blue lines
-    model.plot(forecast);
-        
-    #Visualizing prophet models
-    df1.set_index('ds', inplace=True)
-    forecast.set_index('ds', inplace=True)
-    viz_df = df.join(forecast[['yhat', 'yhat_lower','yhat_upper']], how = 'outer')
-    viz_df['yhat_rescaled'] = np.exp(viz_df['yhat'])
-    viz_df[['Incidents', 'yhat_rescaled']].plot()
-    #make index as datetime object
-    df.index = pd.to_datetime(df.Date) 
-    #selecting 2nd from last date
-    connect_date = df.index[-2] 
-    mask = (forecast.index > connect_date)
-    predict_df = forecast.loc[mask]
-    viz_df = df.join(predict_df[['yhat', 'yhat_lower','yhat_upper']], how = 'outer')
-    viz_df['yhat_scaled']=np.exp(viz_df['yhat'])
-    #final visualization with actual values and forecast values 
-    fig, ax1 = plt.subplots()
-    ax1.plot(viz_df.Incidents)
-    ax1.plot(viz_df.yhat_scaled, color='black', linestyle=':')
-    ax1.fill_between(viz_df.index, np.exp(viz_df['yhat_upper']), np.exp(viz_df['yhat_lower']), alpha=0.5, color='darkgray')
-    ax1.set_title('Incidents (Orange) vs Incidents Forecast (Black)')
-    ax1.set_ylabel('Incidents')
-    ax1.set_xlabel('Date')
-
-    L=ax1.legend() #get the legend
-    L.get_texts()[0].set_text('Actual Incidents') 
-    L.get_texts()[1].set_text('Forecasted Incidents') 
 
 if __name__ == '__main__':
    app.run(host = '0.0.0.0',port=33507,debug='true')
