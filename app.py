@@ -10,14 +10,14 @@ from geopy.distance import vincenty
 from geopy.distance import great_circle
 from geopy.exc import GeocoderTimedOut
 from datetime import datetime
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 from fbprophet import Prophet
 import seaborn as sns
 import pystan
-get_ipython().magic(u'matplotlib inline')
-plt.rcParams['figure.figsize']=(20,10)
-plt.style.use('ggplot')
+#get_ipython().magic(u'matplotlib inline')
+#plt.rcParams['figure.figsize']=(20,10)
+#plt.style.use('ggplot')
 
 quandl.ApiConfig.api_key = 'hMy3FpyQh61czyanLwbC'
 app = Flask(__name__)
