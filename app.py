@@ -32,12 +32,12 @@ def about():
 
 @app.route('/plot',methods = ['GET','POST'])
 def plot():
-    parsed_dataframe = get_data()
-    address = request.form['address']
-    data =  getcrimesby_tier(address,Quality)
+    #parsed_dataframe = get_data()
+    #address = request.form['address']
+   # data =  getcrimesby_tier(address,Quality)
     #forecast_model(data)    
-    #data = quandl.get_table('WIKI:`/PRICES',
-     #                  ticker = request.form['address'])
+    data = quandl.get_table('WIKI:`/PRICES',
+                       ticker = request.form['address'])
     p = figure(plot_width=400, plot_height=400,x_axis_type = "datetime")
     p.line(data.date,data.open,line_width = 2,legend = request.form['address'],color = 'green')
     
