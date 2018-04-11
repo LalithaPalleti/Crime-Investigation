@@ -81,6 +81,7 @@ def getcrimesby_tier(address,crime_type):
         tier.append([key,value])
     tier_df = pd.DataFrame(tier,columns = ['Date','Incidents'])
     return tier_df
+
 def forecast_model(df):
     #Preparing data for Prophet 
     df1 = df.reset_index()
@@ -129,5 +130,6 @@ def forecast_model(df):
     L=ax1.legend() #get the legend
     L.get_texts()[0].set_text('Actual Incidents') 
     L.get_texts()[1].set_text('Forecasted Incidents') 
+
 if __name__ == '__main__':
-i  app.run(host = '0.0.0.0',port=33507,debug='true')
+   app.run(host = '0.0.0.0',port=33507,debug='true')
