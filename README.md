@@ -13,14 +13,10 @@ Following are the forecasted crime values of stores neighborhood for Feb 2018:
 SNO | Store | Tier1 | Tier2 | Tier3 | 
 --- | --- | --- | --- |--- |
 1 | 1912 Pike Place Seattle, WA 98101 | Approximately 0 | Between 0 and 2 | Between 0 and 10 |
---- | --- | --- | --- |--- |
-1 | 1912 Pike Place Seattle, WA 98101 | Approximately 0 | Between 0 and 2 | Between 0 and 10 |
---- | --- | --- | --- |--- |
-1 | 1912 Pike Place Seattle, WA 98101 | Approximately 0 | Between 0 and 2 | Between 0 and 10 |
---- | --- | --- | --- |--- |
-1 | 1912 Pike Place Seattle, WA 98101 | Approximately 0 | Between 0 and 2 | Between 0 and 10 |
---- | --- | --- | --- |--- |
-1 | 1912 Pike Place Seattle, WA 98101 | Approximately 0 | Between 0 and 2 | Between 0 and 10 |
+2 | 4634 26th Avenue NE Seattle, WA 98105 | Approximately 0 | Between 0 and 2 | Between 0 and 5 |
+1 | 10002 Aurora Avenue North Seattle, WA 98133 | Approximately 0 | Between 0 and 2 | Between 0 and 5 |
+1 | 3300 W. McGraw St. Seattle, WA 98119 | Approximately 0 | Between 0 and 2 | Between 0 and 5 |
+1 | 1125 4th Avenue Seattle, WA 98101 | Approximately 0 | Between 0 and 2 | Between 0 and 10 |
 
 As observed from the above figures all the stores mostly fall in Tier3 and some pat in Tier2,so they need
 security from crimes mostly 'Assault’, 'Robbery', 'Breaking & Entering', so they should be taking security
