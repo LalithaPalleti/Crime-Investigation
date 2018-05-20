@@ -8,6 +8,13 @@ This project's goal is to collect crime history data around certain starbucks st
 I have categorized crime severity into 3 tiers: Tier1(‘Drugs’, ‘Liquor’), Tier2('Property Crime',
 'Theft', 'Theft of Vehicle', 'Theft from Vehicle'), Tier3('Assault’, 'Robbery', 'Breaking & Entering')
 Following are the forecasted crime values of stores neighborhood for Feb 2018:
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
 Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
 --- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
 Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
