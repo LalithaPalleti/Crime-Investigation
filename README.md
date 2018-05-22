@@ -27,15 +27,15 @@ more chance of tier3 crimes,so it would be better if they have on premise securi
 
 Plots with predictions and actual values for a store for each crime type:
 
-1. Quality of Life Crimes
+1. Quality of Life Crimes(Tier1)
 
 ![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Tier1%20image.png)
 
-2.Property Crimes
+2.Property Crimes(Tier2)
 
 ![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Tier2%20image.png)
 
-3.Violent Crimes
+3.Violent Crimes(Tier3)
 
 ![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Tier3%20image.png)
 
