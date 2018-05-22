@@ -12,15 +12,15 @@ Following are the forecasted crime values of stores around Seattle area for Feb 
 
 1. Quality of Life Crimes(Tier1)
 
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Tier1%20image.png)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Quality%20image.png)
 
 2.Property Crimes(Tier2)
 
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Tier2%20image.png)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Property%20image.png)
 
 3.Violent Crimes(Tier3)
 
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Tier3%20image.png)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence%20image.png)
 
 Commands to deploy to heroku
 
