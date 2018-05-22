@@ -25,6 +25,9 @@ Cameras,frequent cash pickups,ask the customers to pay mostly through Credit car
 store(1912 Pike Place Seattle, WA 98101) and 5th store(1125 4th Avenue Seattle, WA 98101) there is
 more chance of tier3 crimes,so it would be better if they have on premise security persons
 
+Plots with predictions and actual values for a store for each crime type:
+
+1. Property Crime
 
 
 
