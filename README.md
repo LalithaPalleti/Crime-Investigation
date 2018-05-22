@@ -29,6 +29,7 @@ Plots with predictions and actual values for a store for each crime type:
 
 1. Property Crime
 
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Tier1%20image.png)
 
 
 
