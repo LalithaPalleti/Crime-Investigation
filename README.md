@@ -8,7 +8,7 @@ This project's goal is to collect crime history data around certain starbucks st
 Crime severity is divided into 3 categories: Quality of Life(‘Drugs’, ‘Liquor’), Property('Property Crime',
 'Theft', 'Theft of Vehicle', 'Theft from Vehicle'), Violent('Assault’, 'Robbery', 'Breaking & Entering')
 
-Following are the forecasted crime values of stores neighborhood for Feb 2018:
+Following are the forecasted crime values of stores around Seattle area for Feb 2018:
 
 1. Quality of Life Crimes(Tier1)
 
