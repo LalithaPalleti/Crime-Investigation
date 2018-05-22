@@ -10,24 +10,15 @@ Crime severity is divided into 3 categories: Quality of Life(‘Drugs’, ‘Liq
 
 Following are the forecasted crime values of stores around Seattle area for Feb 2018:
 
-1. Quality of Life Crimes(Tier1)
+1. Quality of Life Crimes
 
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Quality%20image.png)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Quality.png)
 
-2.Property Crimes(Tier2)
+2.Property Crimes
 
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Property%20image.png)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Property.png)
 
-3.Violent Crimes(Tier3)
+3.Violent Crimes
 
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence%20image.png)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence.png)
 
-Commands to deploy to heroku
-
-heroku create --buildpack https://github.com/kennethreitz/conda-buildpack.git
-git push heroku master
-heroku ps:scale web=1
-heroku open
-
-Delete an App from heroku
-heroku apps:destroy --app afternoon-fjord-61667
