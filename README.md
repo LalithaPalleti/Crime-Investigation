@@ -27,11 +27,17 @@ more chance of tier3 crimes,so it would be better if they have on premise securi
 
 Plots with predictions and actual values for a store for each crime type:
 
-1. Property Crime
+1. Quality of Life Crimes
 
 ![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Tier1%20image.png)
 
+2.Property Crimes
 
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Tier2%20image.png)
+
+3.Violent Crimes
+
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Tier3%20image.png)
 
 Commands to deploy to heroku
 
