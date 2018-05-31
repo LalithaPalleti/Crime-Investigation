@@ -24,7 +24,7 @@ Following are the forecasted crime values of stores around Seattle area for the 
 
 3.Violent Crimes
 
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence1.PNG)
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence3.PNG)
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence2.PNG)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violent1.PNG)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violent3.PNG)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violent2.PNG)
 
