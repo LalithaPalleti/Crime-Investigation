@@ -6,15 +6,19 @@ This project's goal is to collect crime history data around certain starbucks st
 
 ## Model
 Crime data in seattle area is extracted from   https://www.crimereports.com/
-Trained the time series forecasting model on this data
 
+Used Facebook's Prophet model to forecast crime rates around starbucks stores in seattle area
+
+First I have trained the Prophet model using the crime data in the seattle area.
+Then I forecasted for future 6 months of data using prophet's predict method.
+
+## Results
 Crime severity is divided into 3 categories: Quality of Life(‘Drugs’, ‘Liquor’), Property('Property Crime',
 'Theft', 'Theft of Vehicle', 'Theft from Vehicle'), Violent('Assault’, 'Robbery', 'Breaking & Entering')
 
-Forecasted crime rates in all 3 categories for a random starbucks store in seattle
+Forecasted crime rates in all 3 categories for a strabucks store in seattle.
 
-## Results
-Following are the forecasted crime rate trends (monthly,yearly,weekly and daily trends) of a random starbucks store around Seattle area:
+Following are the forecasted crime rate trends (monthly,yearly,weekly and daily trends) for that store:
 
 1. Quality of Life Crimes
 
