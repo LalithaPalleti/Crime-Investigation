@@ -18,13 +18,13 @@ Following are the forecasted crime values of stores around Seattle area for the 
 
 2.Property Crimes
 
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Property1.png)
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Property3.png)
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Property2.png)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Property1.PNG)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Property3.PNG)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Property2.PNG)
 
 3.Violent Crimes
 
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence1.png)
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence3.png)
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence2.png)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence1.PNG)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence3.PNG)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Violence2.PNG)
 
