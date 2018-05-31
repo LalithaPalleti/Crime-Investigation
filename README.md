@@ -13,7 +13,7 @@ Following are the forecasted crime values of stores around Seattle area for the 
 1. Quality of Life Crimes
 
 ![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Quality%201.PNG)
-![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Quality3.png)
+![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Quality%203.PNG)
 ![alt text](https://github.com/LalithaPalleti/Crime-Investigation/blob/master/Quality2.png)
 
 2.Property Crimes
